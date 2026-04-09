@@ -1,4 +1,4 @@
-from datatime import datetime
+from datetime import datetime
 
 with open("report.txt", "w", encoding="utf-8") as f:
     f.write("Github Actions Report\n")
