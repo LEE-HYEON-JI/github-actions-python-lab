@@ -1,9 +1,9 @@
-name: 02 Python Run Workflow
+name: 04 Generate Report Workflow
 
 on:
   push:
     branches: 
-      - 'main'
+      - '!main'
   pull_request:
     branches:
       - 'main'
